@@ -1,5 +1,5 @@
-N=int(input())
-if N>0:
+z=int(input())
+if z>0:
     print("Positive")
-if N==0:
+if z==0:
     print("Zero")
