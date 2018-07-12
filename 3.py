@@ -1,6 +1,8 @@
-list=['a','e','i','o','u']
-r = str(input("value is:"))
-if(r in list):
-    print("vowel")
+r=input()
+if (r.isalpha()):
+    if r=='a' or r=='e' or r=='i' or r=='o' or r=='u':
+        print("Vowel")
+    else:
+        print("Consonant")
 else:
-    print("Consonant")
+    print("invalid")
