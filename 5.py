@@ -1,6 +1,4 @@
-x=input()
-y=input()
-z=input()
+x,y,z=input().split()
 if x.isalpha() or y.isalpha() or z.isalpha():
     print("invalid")
 else:
